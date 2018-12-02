@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Md5</title>
+</head>
+<body>
+<form action="index.php" method="POST">
+		<center>
+		<input type="text" name="name">
+		<input type="submit" name="submit" value="functmd5"><br><!--Escribe lo que tu quiera  -->
+
+	</form>
+</center>
+
+</body>
+</html>
+<?php
+//Marcos J Aguirre
+//php web
+//if la condicion
+if (isset($_POST['submit'])) {
+	# code...
+  //declara la variable
+	$name = $_POST['name'];
+	
+	echo "<center> <h1> ".$name."</center> </h1>"; //primero write despues
+	echo"<br>";//espacio
+	echo "<center> ".md5($name)."</center> "; // encriptado
+	$enc=base64_encode($name);
+	echo base64_decode($enc);
+
+}
+
+?>
