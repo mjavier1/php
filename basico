@@ -1,0 +1,8 @@
+<?php //concepto basico abre
+echo"hola mundo"; // para pantalla
+//comentario
+/*
+bloque escribe mucho
+
+*/
+closed //?>
