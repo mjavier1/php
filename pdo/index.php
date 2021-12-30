@@ -1,11 +1,9 @@
 <?php
-///var/www# sudo chmod -R 777 pdo
-//caundo creo proyecto nuevo tengo darle permiso
-/*
-mi nombre marcos Aguirre 
-proyecto practica pdo 
-udemy
-*/
 echo("helluuuof");
+echo"<h1>holle</h1>";
 
 ?>
+<html>
+<a href="conn.php">conn </a>
+
+</html>
