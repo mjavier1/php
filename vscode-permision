@@ -1,1 +1,6 @@
 https://dev.to/rahedmir/visual-studio-code-always-ask-for-permission-to-save-files-in-linux-140p
+https://stackoverflow.com/questions/55747091/cant-write-files-to-var-www-html-using-the-vs-code-editor
+sudo chmod 777 /var/www/html/
+codigo crea codigo 
+android casi mismo
+sudo chmod 777 -R /dev/kvm
