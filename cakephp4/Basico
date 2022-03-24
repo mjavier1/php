@@ -1,1 +1,6 @@
-
+https://book.cakephp.org/4/en/installation.html
+composer create-project --prefer-dist cakephp/app:~4.0 nombre_crea
+bin/cake server para corre
+primero hay configura la extension intln para activar
+tiene instlador composer 
+para pover programa
